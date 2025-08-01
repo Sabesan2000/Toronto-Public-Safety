@@ -56,7 +56,7 @@ This project helped me understand:
 The sample data mimics real crime patterns but is completely fictional.
 \`\`\`
 
-```python file="app.py"
+\`\`\`python file="app.py"
 """
 Toronto Public Safety Dashboard - Main Application
 
