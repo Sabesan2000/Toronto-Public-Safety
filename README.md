@@ -36,21 +36,3 @@ Built this dashboard to learn Streamlit while creating something useful for publ
    \`\`\`bash
    streamlit run app.py
    \`\`\`
-
-## Data
-
-Uses 5,000+ sample crime incidents with realistic patterns:
-- 7 Toronto districts
-- 7 crime types
-- 24 months of data
-- Seasonal variations
-
-## Learning Streamlit
-
-This project helped me understand:
-- Building interactive web apps with Python
-- Managing user state and filters
-- Integrating databases with web interfaces
-- Creating professional dashboards
-
-
