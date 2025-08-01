@@ -1,0 +1,60 @@
+# 📦 PYTHON PACKAGE REQUIREMENTS
+# ===============================
+# 
+# This file tells Python which external libraries our dashboard needs to work.
+# Think of it like a shopping list for software - it ensures everyone who
+# runs our dashboard has exactly the same tools installed.
+# 
+# WHY THIS MATTERS:
+# - Different versions of libraries can behave differently
+# - This file ensures consistency across different computers
+# - Makes it easy for others to set up the exact same environment
+# - Prevents "it works on my machine" problems
+# 
+# TO INSTALL THESE PACKAGES:
+# Run this command in your terminal: pip install -r requirements.txt
+
+# 🌐 STREAMLIT - Our Web Application Framework
+# This is the star of the show! Streamlit makes it incredibly easy to
+# create interactive web applications using just Python code.
+streamlit==1.28.0    # Web application framework
+
+# 📊 PANDAS - Data Analysis and Manipulation
+# The Swiss Army knife of data science. Pandas helps us:
+# - Read data from databases
+# - Filter and sort information
+# - Calculate statistics and trends
+# - Transform data for visualization
+pandas==2.0.3        # Data analysis and manipulation
+
+# 📈 PLOTLY - Interactive Data Visualization
+# Creates beautiful, interactive charts that users can explore:
+# - Bar charts, line graphs, pie charts
+# - Hover effects and zoom capabilities
+# - Professional-looking visualizations
+# - Integrates perfectly with Streamlit
+plotly==5.15.0       # Interactive data visualization
+
+# 🗄️ SQLITE3 - Database Management
+# Built into Python, but we list it here for clarity
+# SQLite is perfect for our dashboard because:
+# - No separate database server needed
+# - Fast and reliable
+# - Perfect for single-user applications
+# - Easy to backup and share
+sqlite3              # Database management (built into Python)
+
+# 🔢 NUMPY - Numerical Computing
+# Powers many of our statistical calculations:
+# - Random number generation for sample data
+# - Mathematical operations
+# - Statistical distributions
+# - Foundation for pandas and plotly
+numpy==1.24.3        # Numerical computing and statistics
+
+# 🎨 Note about styling:
+# We use custom CSS for Toronto branding, so no additional CSS frameworks needed!
+
+# 🚀 Note about deployment:
+# These versions are tested and work well together. If you need to upgrade
+# any package, test thoroughly to ensure compatibility!
